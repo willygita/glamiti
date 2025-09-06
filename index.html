@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamiti Shop - Luxury Fashion & Accessories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-gem"></i>Glamiti Shop
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="product.html">Home</a></li>
+                        <li>
+                            <a href="#">Women <i class="fas fa-chevron-down"></i></a>
+                            <div class="dropdown">
+                                <a href="product.html">Dresses</a>
+                                <a href="product.html">Tops</a>
+                                <a href="product.html">Shoes</a>
+                                <a href="product.html">Accessories</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Men <i class="fas fa-chevron-down"></i></a>
+                            <div class="dropdown">
+                                <a href="product.html">Shirts</a>
+                                <a href="product.html">Pants</a>
+                                <a href="product.html">Shoes</a>
+                                <a href="product.html">Accessories</a>
+                            </div>
+                        </li>
+                        <li><a href="#">Beauty</a></li>
+                        
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div>
+                        <a href='login.html'><i class="fas fa-user"></i></a>
+                    </div>
+                    <div id="cart-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Elevate Your Style with Glamiti</h1>
+            <p>Discover the latest trends in fashion and beauty. Shop from thousands of products with fast delivery and easy returns.</p>
+            <div>
+                <a href="#" class="btn">Shop Now</a>
+                <a href="#" class="btn btn-outline">New Arrivals</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="container">
+        <h2 class="section-title">Shop By Category</h2>
+        <div class="categories">
+            <div class="category">
+                <img src="https://images.unsplash.com/photo-1525299374597-911581e1bdef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Women's Fashion">
+                <div class="category-overlay">
+                    <div class="category-name">Women's Fashion</div>
+                </div>
+            </div>
+            <div class="category">
+                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Men's Fashion">
+                <div class="category-overlay">
+                    <div class="category-name">Men's Fashion</div>
+                </div>
+            </div>
+            <div class="category">
+                <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Accessories">
+                <div class="category-overlay">
+                    <div class="category-name">Accessories</div>
+                </div>
+            </div>
+            <div class="category">
+                <img src="https://images.unsplash.com/photo-1599640842225-85d111c60e6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Beauty">
+                <div class="category-overlay">
+                    <div class="category-name">Beauty</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="container">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <div class="product-badge">New</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Elegant Dress">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Elegant Evening Dress</h3>
+                    <div class="product-price">
+                        <span class="current-price">$89.99</span>
+                        <span class="original-price">$129.99</span>
+                        <span class="discount">30% OFF</span>
+                    </div>
+                    <button class="add-to-cart" data-id="1" data-name="Elegant Evening Dress" data-price="89.99">
+                        <i class="fas fa-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1554412933-514a83d2f3c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Designer Handbag">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Designer Handbag</h3>
+                    <div class="product-price">
+                        <span class="current-price">$159.99</span>
+                        <span class="original-price">$199.99</span>
+                        <span class="discount">20% OFF</span>
+                    </div>
+                    <button class="add-to-cart" data-id="2" data-name="Designer Handbag" data-price="159.99">
+                        <i class="fas fa-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-badge">Bestseller</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="High Heels">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Luxury High Heels</h3>
+                    <div class="product-price">
+                        <span class="current-price">$129.99</span>
+                    </div>
+                    <button class="add-to-cart" data-id="3" data-name="Luxury High Heels" data-price="129.99">
+                        <i class="fas fa-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Sunglasses">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Designer Sunglasses</h3>
+                    <div class="product-price">
+                        <span class="current-price">$79.99</span>
+                        <span class="original-price">$99.99</span>
+                        <span class="discount">20% OFF</span>
+                    </div>
+                    <button class="add-to-cart" data-id="4" data-name="Designer Sunglasses" data-price="79.99">
+                        <i class="fas fa-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3>Free Shipping</h3>
+                    <p>On all orders over $50</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-undo"></i>
+                    <h3>Easy Returns</h3>
+                    <p>30-day return policy</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure Payment</h3>
+                    <p>Safe and secure checkout</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated customer support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="container">
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="products">
+            <div class="product">
+                <div class="product-badge">New</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Men's Watch">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Luxury Men's Watch</h3>
+                    <div class="product-price">
+                        <span class="current-price">$199.99</span>
+                    </div>
+                    <button class="add-to-cart" data-id="5" data-name="Luxury Men's Watch" data-price="199.99">
+                        <i class="fas fa-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Skincare Set">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Premium Skincare Set</h3>
+                    <div class="product-price">
+                        <span class="current-price">$149.99</span>
+                        <span class="original-price">$199.99</span>
+                        <span class="discount">25% OFF</span>
+                    </div>
+                    <button class="add-to-cart" data-id="6" data-name="Premium Skincare Set" data-price="149.99">
+                        <i class="fas fa-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-badge">Trending</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1611010344444-5f9e4d86a6e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Perfume">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Luxury Perfume</h3>
+                    <div class="product-price">
+                        <span class="current-price">$89.99</span>
+                    </div>
+                    <button class="add-to-cart" data-id="7" data-name="Luxury Perfume" data-price="89.99">
+                        <i class="fas fa-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1614179689702-355944cd0918?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80" alt="Jewelry">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Gold Necklace</h3>
+                    <div class="product-price">
+                        <span class="current-price">$259.99</span>
+                        <span class="original-price">$299.99</span>
+                        <span class="discount">15% OFF</span>
+                    </div>
+                    <button class="add-to-cart" data-id="8" data-name="Gold Necklace" data-price="259.99">
+                        <i class="fas fa-shopping-bag"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h2>Your Shopping Bag</h2>
+            <div class="close-cart" id="close-cart">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-total" id="cart-total">
+            Total: $0.00
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+	
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Glamiti Shop</h3>
+                    <p>Your one-stop destination for all fashion and beauty needs. We offer high-quality products at affordable prices.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+				        <div class="header-top">
+            <div class="container header-top-content">
+                <div class="header-top-left">
+                    <a href="#"><i class="fas fa-phone"></i> Contact Us</a>
+                    <a href="#"><i class="fas fa-question-circle"></i> Help</a>
+                </div>
+            </div>
+        </div>
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">Women's Fashion</a></li>
+                        <li><a href="#">Men's Fashion</a></li>
+                        <li><a href="#">Kids' Fashion</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Beauty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to get updates on our latest products and special offers.</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email address">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Glamiti Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+	<script>
+        // Cart functionality
+        let cart = [];
+        const cartIcon = document.getElementById('cart-icon');
+        const cartSidebar = document.getElementById('cart-sidebar');
+        const closeCart = document.getElementById('close-cart');
+        const cartItems = document.getElementById('cart-items');
+        const cartTotal = document.getElementById('cart-total');
+        const cartCount = document.querySelector('.cart-count');
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+        // Open cart
+        cartIcon.addEventListener('click', () => {
+            cartSidebar.classList.add('active');
+        });
+
+        // Close cart
+        closeCart.addEventListener('click', () => {
+            cartSidebar.classList.remove('active');
+        });
+
+        // Add to cart
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const id = button.getAttribute('data-id');
+                const name = button.getAttribute('data-name');
+                const price = parseFloat(button.getAttribute('data-price'));
+                
+                // Check if product already in cart
+                const existingItem = cart.find(item => item.id === id);
+                
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    cart.push({
+                        id,
+                        name,
+                        price,
+                        quantity: 1
+                    });
+                }
+                
+                updateCart();
+                cartSidebar.classList.add('active');
+            });
+        });
+
+        // Update cart
+        function updateCart() {
+            // Clear cart items
+            cartItems.innerHTML = '';
+            
+            let total = 0;
+            let count = 0;
+            
+            // Add items to cart
+            cart.forEach(item => {
+                const itemTotal = item.price * item.quantity;
+                total += itemTotal;
+                count += item.quantity;
+                
+                const cartItem = document.createElement('div');
+                cartItem.classList.add('cart-item');
+                cartItem.innerHTML ='';
+                    
+                    cartItems.appendChild(cartItem);
+            });
+            
+            // Update total and count
+            cartTotal.textContent = `Total: $${total.toFixed(2)}`;
+            cartCount.textContent = count;
+            
+            // Add event listeners to remove buttons
+            const removeButtons = document.querySelectorAll('.cart-item-remove');
+            removeButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const id = button.getAttribute('data-id');
+                    cart = cart.filter(item => item.id !== id);
+                    updateCart();
+                });
+            });
+        }
+    </script>
+</body>	
+</html>	
+
+    
